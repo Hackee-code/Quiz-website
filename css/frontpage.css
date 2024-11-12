@@ -1,0 +1,80 @@
+body {
+    background-image: url(../assets/Background\ image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.heading {
+    color: white;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Reset margin */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    width: fit-content;
+    height: auto;
+}
+
+.quiz-card {
+    background-color: #96b7e9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    height: auto; /* Changed to auto to accommodate content */
+    text-align: center;
+    border: solid 2px #ccc; 
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+.quiz-title {
+    font-size: 24px; 
+    margin-bottom: 20px; /* Adjusted margin for spacing */
+    color: white;
+}
+
+.start-button {
+    background-color: #c84dc2;
+    color: white;
+    padding: 10px 40px; /* Increased padding for better button size */
+    border: solid 2px black; 
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 35px; /* Reduced top margin */
+    width: fit-content;
+    float:right;
+    margin-right: 100px;
+}
+
+.start-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.start-button:hover {
+    background-color: black;
+}
+
+#quiz-image {
+    width: auto; 
+    height: auto;
+    margin: 20px 0; /* Added margin for spacing */
+}
+
+#quiz-image img {
+    width: 150px;
+    height: 150px;
+    float: left;
+}

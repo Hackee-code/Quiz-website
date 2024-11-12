@@ -1,0 +1,62 @@
+/* style.css */
+body {
+    background-image: url('../assets/Background\ image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+.card-title {
+    font-size: 3rem;
+    color: #FF5733;
+    text-shadow: 2px 2px 4px rgba;
+    
+}
+.quizpng{
+    height: 200px;
+    width: 250px;
+    float: left;
+}
+.riddlespng{
+    height: 200px;
+    width: 150px;
+    float: left;
+}
+.container{
+    position: relative;
+    top: 250px;
+    width: 500px;
+    
+    
+}
+.container1{
+    width: 550px;
+}
+.button{
+    display: flex;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 80px; /* Reduced margin for better spacing */
+    height: 50px;
+    margin-left: 270px;
+}
+.button1{
+    display: flex;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 80px; /* Reduced margin for better spacing */
+    height: 50px;
+    margin-left: 270px;
+}
+

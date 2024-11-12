@@ -1,0 +1,69 @@
+body {
+  background-image: url("../assets/Background image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e6e6fa; /* Light blue background for the button container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  min-height: 250px; /* Allow it to grow if needed */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sign-up-button, .guest-button {
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 10px 15px;
+  background-color: #d8b6d8; /* Light purple button background */
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%; /* Make buttons take full width of the container */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.sign-up-button:hover, .guest-button:hover {
+  background-color: #c19ac0; /* Darker shade on hover */
+}
+
+.sign-up-button a, .guest-button a {
+  color: #000;
+  text-decoration: none;
+  /* Removed display: block; to allow flexbox centering to work */
+  width: 100%; /* Make the link fill the button */
+  text-align: center; /* Center text in the link */
+}
+
+.sign-up-button:focus, .guest-button:focus {
+  outline: 2px solid #d8b6d8; /* Add an outline on focus */
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+}
